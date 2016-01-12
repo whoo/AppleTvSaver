@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=movie
+Exec=AppleTvSaver
 Icon=kscreensaver
 Type=Service
 X-KDE-ServiceTypes=ScreenSaver
@@ -10,16 +10,16 @@ X-KDE-Type=OpenGL
 Name=AppleTv
 
 [Desktop Action Setup]
-Exec=kxsconfig movie
+Exec=kxsconfig AppleTvSaver
 Name=Setup...
 Icon=kscreensaver
 
 [Desktop Action InWindow]
-Exec=kxsrun movie -- -window-id %w
+Exec=kxsrun AppleTvSaver -- -window-id %w
 Name=AppleTV
 NoDisplay=true
 
 [Desktop Action Root]
-Exec=kxsrun movie -- -root
+Exec=kxsrun AppleTvSaver -- -root
 Name=Display in Root Window
 NoDisplay=true
