@@ -1,14 +1,14 @@
 # AppleTvSaver
 Simpe hack for kde to running appleTv screensaver
 
-# you need
+# You need
 ```
 mpv
 kde
-xscreensaver
 ```
 
 # To install
- *  ./download.py
- * make install
+ * make download
+ * make install 
+ * make test
  * configure you screensaver

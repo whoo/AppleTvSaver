@@ -4,7 +4,7 @@ DESTSCRIPT=/usr/lib64/misc/xscreensaver/
 DESTSERVICE=/usr/share/kde4/services/ScreenSavers/
 DIR=/usr/share/AppleMovie
 
-install:
+install: 
 	@test -d	 ${DIR} || mkdir ${DIR}
 	@test -d  ${DIR}/screensavers || mkdir  ${DIR}/screensavers
 	@for saver in screensavers/*.mov; do \
@@ -19,3 +19,5 @@ test:
 	kxsrun AppleTvSaver
 
 
+download:
+	@./download.py
