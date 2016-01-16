@@ -7,4 +7,6 @@ FILES="$DIR/screensavers"
 KEYS="$DIR/input.conf"
 
 
-mpv --no-input-default-bindings  --input-conf $KEYS --really-quiet --no-audio --loop=inf   --no-osc  --no-osd-bar --panscan=1 --no-sub-ass -fs --fs-screen=all --shuffle --no-stop-screensaver  --no-stop-screensaver ${PARAM} ${FILES}
+
+mpv --no-input-default-bindings  --input-conf $KEYS --really-quiet --no-audio --loop=inf   --no-osc  --no-osd-bar --panscan=1 --no-sub-ass -fs --fs-screen=all --shuffle --no-stop-screensaver  --no-stop-screensaver ${PARAM} ${FILES} 
+
