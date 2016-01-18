@@ -22,3 +22,7 @@ make install
 make test
 ```
 configure you screensaver
+
+## Knowns bugs
+- No configuration options.
+- Preview exits on mouse event.
