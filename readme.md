@@ -9,13 +9,13 @@ Simpe hack for kde to running appleTv screensaver
 
 ![alt tag](https://raw.githubusercontent.com/whoo/AppleTvSaver/master/montage.jpg)
 
-# You need
+## You need
 ```
 mpv
 kde
 ```
 
-# To install
+## To install
 ```
 make download
 make install 
