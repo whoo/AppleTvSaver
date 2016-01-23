@@ -1,9 +1,9 @@
 # AppleTvSaver
 
 
-Simpe hack for kde to running appleTv screensaver
-- Just playing video on screensaver
-- All bindings are redirect to quit
+Simpe hack for kde to run appleTv screensaver
+- Play video on screensaver
+- All keys are redirected to quit
 - Bugs when you try script in configuration 
 
 
