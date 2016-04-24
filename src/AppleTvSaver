@@ -9,5 +9,5 @@ KEYS="$DIR/input.conf"
 MPV="/usr/bin/mpv"
 
 
-exec ${MPV} --no-input-default-bindings  --input-conf $KEYS --really-quiet --no-audio --loop=inf   --no-osc  --no-osd-bar --panscan=1 --no-sub-ass -fs --fs-screen=all --shuffle --no-stop-screensaver  --no-stop-screensaver ${PARAM} ${FILES} 
+exec ${MPV} --no-input-default-bindings  --input-conf $KEYS --really-quiet --no-audio   --no-osc  --no-osd-bar --panscan=1 --no-sub-ass -fs --fs-screen=all --shuffle --no-stop-screensaver  --no-stop-screensaver ${PARAM} ${FILES} 
 

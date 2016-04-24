@@ -7,7 +7,7 @@ DIR=/usr/share/AppleMovie
 install: 
 	@test -d	${DIR} || mkdir ${DIR}
 	@test -d  	${DIR}/screensavers || mkdir  ${DIR}/screensavers
-	@for saver in screensavers/*.mov; do \
+	@for saver in screensavers/*/*.mov; do \
 		echo "$$saver" ;\
 	install -m 0644 "$$saver" ${DIR}/screensavers; \
 	done 
